@@ -1,0 +1,14 @@
+:root{
+  --black:#000000;
+  --ink:#050507;
+  --cyan:#01b8f3;
+  --magenta:#f912b0;
+  --ease-menu:cubic-bezier(.87, 0, .13, 1);
+  --ease-fade:cubic-bezier(.645, .045, .355, 1);
+  --ease-pop:cubic-bezier(.3, 1.4, .7, 1);
+  --ease-out:cubic-bezier(.22, 1, .36, 1);
+  --dur-hover:200ms;
+  --dur-state:500ms;
+  --dur-fade:400ms;
+  --dur-menu:600ms;
+}

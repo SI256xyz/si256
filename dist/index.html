@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SI256 | Minds without a ceiling</title>
+<meta name="description" content="SI256 lives on Solana and speaks to memory athletes, pattern hunters and builders. Live chain height and market data, read straight from public endpoints.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://si256.fun/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SI256 | Minds without a ceiling">
+<meta property="og:description" content="A Solana token for memory athletes, pattern hunters and builders.">
+<meta property="og:url" content="https://si256.fun/">
+<meta property="og:image" content="https://si256.fun/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/orbitron-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"><i></i></div>
+
+<header class="top">
+  <div class="wrap">
+    <div class="top__row">
+      <a class="brand" href="#top" aria-label="SI256, back to top">
+        <img src="assets/logo-256.webp" width="256" height="111" alt="">
+        
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#pillars">Pillars</a>
+        <a href="#features">Features</a>
+        <a href="#thesis">Thesis</a>
+        <a href="#signal">Signal</a>
+      </nav>
+      <button class="burger icon-btn" id="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><i></i><i></i><i></i></button>
+      <div class="social" role="group" aria-label="Social links">
+        <a class="icon-btn" href="https://x.com/SI256_Fun" target="_blank" rel="noopener noreferrer" aria-label="SI256 on X (@SI256_Fun)" data-record="x"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+        <span class="icon-btn is-inert" role="link" aria-disabled="true" aria-label="GitHub (not available yet)" data-record="github"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></span>
+      </div>
+    </div>
+    <div class="ca-slot">
+      <div class="ca is-inert" data-record="ca" aria-disabled="true"><span class="ca__label">CA</span><span class="ca__addr ca__addr--empty">Contract address not announced yet</span></div>
+    </div>
+  </div>
+  <nav class="drawer" id="drawer" aria-label="Mobile">
+    <a href="#pillars">Pillars</a>
+    <a href="#features">Features</a>
+    <a href="#thesis">Thesis</a>
+    <a href="#signal">Signal</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="layer layer--grid"></div>
+      <div class="layer layer--orb-c"></div>
+      <div class="layer layer--orb-m"></div>
+      <div class="layer layer--ring"></div>
+    </div>
+    <div class="wrap hero__grid">
+      <div>
+        <div class="pill rv" id="pill" data-feed="wait"><span class="dot" aria-hidden="true"></span><span id="pill-text" role="status">Connecting</span></div>
+        <h1 id="h1" class="rv">Minds <em>without</em> a ceiling</h1>
+        <p class="lede rv">SI256 lives on Solana and speaks to anyone who trains recall like an athlete and chases patterns like a detective. Every figure that moves on this page is read live from a public endpoint, nothing is typed in by hand.</p>
+        <div class="hero__cta rv">
+          <a class="btn btn--solid spot" href="#signal">Watch the signal</a>
+          <a class="btn btn--ghost spot" href="https://x.com/SI256_Fun" target="_blank" rel="noopener noreferrer" data-record="x-cta">Follow @SI256_Fun</a>
+        </div>
+      </div>
+      <div class="hero__art rv">
+        <img src="assets/logo-1012.webp" width="1012" height="440" alt="SI256 logo: a circuit-patterned rhino beside the SI256 wordmark" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="pillars" aria-labelledby="pillars-h">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <div class="kicker">Five pillars</div>
+        <h2 id="pillars-h">What the rhino stands for</h2>
+        <p>A short list of habits that separate sharp thinkers from busy ones.</p>
+      </div>
+      <div class="rows">
+        <article class="row spot rv"><span class="row__idx">A</span><h3>Recall</h3><p>A trained memory turns a pile of facts into a map you can walk through. We back anyone who rehearses until the order never slips.</p></article>
+        <article class="row spot rv"><span class="row__idx">B</span><h3>Precision</h3><p>One exact answer beats ten loose ones. Clean inputs, careful checks, nothing rounded in your favour.</p></article>
+        <article class="row spot rv"><span class="row__idx">C</span><h3>Pattern</h3><p>Structure hides inside noise. Spotting it early is the quiet skill behind most good decisions.</p></article>
+        <article class="row spot rv"><span class="row__idx">D</span><h3>Craft</h3><p>Skill comes from small daily reps, repeated for years. No shortcuts get announced, they just get practised.</p></article>
+        <article class="row spot rv"><span class="row__idx">E</span><h3>Frontier</h3><p>Tools change fast. We keep one eye on the edge and build toward it in public view.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="features" aria-labelledby="features-h">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <div class="kicker">Six features</div>
+        <h2 id="features-h">Made for inspection</h2>
+      </div>
+      <div class="cards">
+        <article class="card spot rv"><span class="card__n">01</span><h3>Native to Solana</h3><p>Fast confirmation and tiny fees, so the token feels as quick as the minds around it.</p></article>
+        <article class="card spot rv"><span class="card__n">02</span><h3>Live, never staged</h3><p>Chain height and market numbers come from open endpoints. If a source goes quiet, the tile shows a dash, not a guess.</p></article>
+        <article class="card spot rv"><span class="card__n">03</span><h3>Rooted in memory sport</h3><p>The brand borrows its discipline from athletes who compete on recall, focus and mental stamina.</p></article>
+        <article class="card spot rv"><span class="card__n">04</span><h3>Address slot reserved</h3><p>The contract address will sit at the very peak of this page the moment it is announced. Until then the slot stays honestly empty.</p></article>
+        <article class="card spot rv"><span class="card__n">05</span><h3>Open to inspection</h3><p>A source link will switch on here once the code is public. Nothing is faked in the meantime.</p></article>
+        <article class="card spot rv"><span class="card__n">06</span><h3>Community first</h3><p>Updates land on X first. Follow along, ask hard questions, bring your own methods.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="thesis" aria-labelledby="thesis-h">
+    <div class="wrap">
+      <div class="thesis spot rv">
+        <div>
+          <div class="kicker">The short version</div>
+          <h2 id="thesis-h">Why a token for sharp minds</h2>
+        </div>
+        <div>
+          <p>Attention is the scarce resource of this decade. Anyone able to hold more, sort faster and decide cleaner have an edge, and they tend to find each other.</p>
+          <p>SI256 gives that crowd a shared banner on Solana: a place to follow, a symbol to rally around, and a feed that tells the truth about its own numbers.</p>
+          <div class="hero__cta">
+          <a class="btn btn--solid spot" href="https://x.com/SI256_Fun" target="_blank" rel="noopener noreferrer" data-record="x-cta">Follow @SI256_Fun</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="signal" aria-labelledby="signal-h">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <div class="kicker">Live signal</div>
+        <h2 id="signal-h">Straight from the source</h2>
+        <p>Chain height refreshes every two seconds. Market data refreshes every thirty. Failures back off and retry on their own.</p>
+      </div>
+      <div class="tiles">
+        <div class="tile spot rv" id="t-height" data-state="loading"><span class="tile__k">Solana block height</span><span class="tile__v" aria-live="off">&mdash;</span><span class="skel" aria-hidden="true"></span><span class="tile__note">Connecting to RPC</span></div>
+        <div class="tile spot rv" id="t-price" data-state="loading"><span class="tile__k">Price (USD)</span><span class="tile__v">&mdash;</span><span class="skel" aria-hidden="true"></span><span class="tile__note">Waiting for market data</span></div>
+        <div class="tile spot rv" id="t-chg" data-state="loading"><span class="tile__k">24h change</span><span class="tile__v">&mdash;</span><span class="skel" aria-hidden="true"></span><span class="tile__note">Waiting for market data</span></div>
+        <div class="tile spot rv" id="t-vol" data-state="loading"><span class="tile__k">24h volume</span><span class="tile__v">&mdash;</span><span class="skel" aria-hidden="true"></span><span class="tile__note">Waiting for market data</span></div>
+      </div>
+
+      <div class="marquee rv" id="marquee" data-state="loading" aria-label="Token logos from indexed pairs">
+        <span class="skel" aria-hidden="true"></span>
+        <div class="marquee__track" hidden></div>
+        <p class="marquee__msg" hidden></p>
+      </div>
+
+      <div class="pairs rv" id="pairs" aria-live="polite">
+        <div class="skel-row" aria-hidden="true"></div>
+        <div class="skel-row" aria-hidden="true"></div>
+      </div>
+      <p class="note rv" id="pairs-note">No contract address is published yet, so pairs are matched by name alone and cannot be verified. Treat lookalikes with caution.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="#top" aria-label="SI256, back to top"><img src="assets/logo-256.webp" width="256" height="111" alt=""></a>
+        <p class="foot__blurb">Minds without a ceiling, on Solana.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#pillars">Pillars</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#thesis">Thesis</a></li>
+          <li><a href="#signal">Signal</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://x.com/SI256_Fun" target="_blank" rel="noopener noreferrer" data-record="x-foot">X @SI256_Fun</a></li>
+          <li><span class="is-inert" data-record="github-foot" aria-disabled="true">GitHub (soon)</span></li>
+        </ul>
+      </div>
+    </div>
+    <small>&copy; 2026 SI256 &middot; si256.fun</small>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="register">{"schema":1,"records":{"name":{"state":"stated","value":"SI256","url":null,"source":"client confirmed"},"domain":{"state":"stated","value":"si256.fun","url":"https://si256.fun","source":"client confirmed"},"chain":{"state":"stated","value":"Solana","url":null,"source":"client confirmed","scope":"batch-level","commitment":"confirmed"},"rpc":{"state":"stated","value":null,"url":"https://solana-rpc.publicnode.com","source":"client confirmed"},"market_api":{"state":"stated","value":null,"url":"https://api.dexscreener.com/latest/dex/search?q=si256","source":"client confirmed"},"ca":{"state":"absent","value":null,"url":null,"source":"client confirmed"},"x":{"state":"stated","value":null,"url":"https://x.com/SI256_Fun","source":"client confirmed"},"github":{"state":"absent","value":null,"url":null,"source":"client confirmed"}}}</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

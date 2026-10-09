@@ -1,0 +1,15 @@
+{
+  "name": "si256",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SI256 landing site",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs"
+  },
+  "devDependencies": {
+    "node-html-parser": "^9.0.4",
+    "sharp": "^0.34.0"
+  }
+}

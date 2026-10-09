@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "records": {
+    "name":        { "state": "stated", "value": "SI256",        "url": null, "source": "client confirmed" },
+    "domain":      { "state": "stated", "value": "si256.fun",    "url": "https://si256.fun", "source": "client confirmed" },
+    "chain":       { "state": "stated", "value": "Solana",       "url": null, "source": "client confirmed", "scope": "batch-level", "commitment": "confirmed" },
+    "rpc":         { "state": "stated", "value": null,           "url": "https://solana-rpc.publicnode.com", "source": "client confirmed" },
+    "market_api":  { "state": "stated", "value": null,           "url": "https://api.dexscreener.com/latest/dex/search?q=si256", "source": "client confirmed" },
+    "ca":          { "state": "absent", "value": null,           "url": null, "source": "client confirmed" },
+    "x":           { "state": "stated", "value": null,           "url": "https://x.com/SI256_Fun", "source": "client confirmed" },
+    "github":      { "state": "absent", "value": null,           "url": null, "source": "client confirmed" }
+  }
+}
